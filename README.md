@@ -37,6 +37,7 @@ Powered by the Pokémon API, Poke-Go lets you effortlessly explore detailed info
 
 ## Example
 
+![output](https://github.com/priyanshu0463/poke-go/assets/112779111/288d2d71-328c-4d39-955c-db91345e0546)
 
 
 
@@ -50,4 +51,4 @@ Powered by the Pokémon API, Poke-Go lets you effortlessly explore detailed info
 
 
  
-*Good luck, Trainer!*
+*Good luck, Trainers!*
