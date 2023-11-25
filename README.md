@@ -2,13 +2,13 @@
 
 Poké-Search: Professor Oak's ultimate Pokémon research app for trainers worldwide!
 
-Professor Oak has provided all the information you'll need to rebuild his app. He's also been thoughtful enough to capture a recording of what the app looked like before the accident. Complete all the three stages he's mentioned to complete this task successfully.
+Powered by the Pokémon API, Poke-Go lets you effortlessly explore detailed information about your favorite Pokémon. Simply enter a Pokémon's name, and watch as the app fetches comprehensive data, including types, abilities, and evolutions. The user-friendly interface makes navigation a breeze, and the best part? You can save your favorite Pokémon's data for quick access later. Dive into the world of Pokémon with Poke-Go, your go-to desktop companion for all things Pokémon-related! 
 
 
 ## Setup
 ### Clone the repository to your local machine:
 
-    git clone https://github.com/Wreck-X/Poke-Search.git
+    git clone https://github.com/priyanshu0463/poke-go.git
 
 ### Navigate to the project directory:
 
@@ -39,7 +39,7 @@ Professor Oak has provided all the information you'll need to rebuild his app. H
 
 
 
-![](https://github.com/amfoss/tasks/blob/2023/task-08/assets/output.gif)
+
 
 
 
