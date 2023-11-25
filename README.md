@@ -2,10 +2,52 @@
 
 Poké-Search: Professor Oak's ultimate Pokémon research app for trainers worldwide!
 
-# Errors
+Professor Oak has provided all the information you'll need to rebuild his app. He's also been thoughtful enough to capture a recording of what the app looked like before the accident. Complete all the three stages he's mentioned to complete this task successfully.
 
-I got an error while attempting to retrieve the Pokémon image.I tried various approaches to fix the problem but none worked, so as a workaround I added a default image in case the requested image fails to load. I also pinned the screenshot of the error message below. 
 
-Error Img:
+## Setup
+### Clone the repository to your local machine:
 
-![Screenshot from 2023-11-02 11-36-36](https://github.com/priyanshu0463/amfoss-tasks/assets/112779111/c476057f-986b-46c0-b520-f138c4436026)
+    git clone https://github.com/Wreck-X/Poke-Search.git
+
+### Navigate to the project directory:
+
+    cd Poke-Search
+
+### Create a virtual environment using Python's venv module:
+
+    python -m venv poke_env
+
+### Activate the virtual environment:
+
+    source poke_env/bin/activate
+
+### Install the project's dependencies from the requirements.txt file:
+
+
+    pip install -r requirements.txt
+
+
+
+###   Navigate to src and run the Poke-Search application:
+
+    cd src/
+    python main.py
+ 
+
+## Example
+
+
+
+![](https://github.com/amfoss/tasks/blob/2023/task-08/assets/output.gif)
+
+
+
+
+
+
+
+
+
+ 
+*Good luck, Trainer!*
