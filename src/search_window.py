@@ -6,6 +6,7 @@ import requests
 from PIL import Image
 from display_window import DisplayWindow
 import shutil
+import os
 
 
 class SearchWindow(QWidget):
@@ -91,6 +92,7 @@ class SearchWindow(QWidget):
     ## TO-DO ##
 
     def search(self):
+        
         empty_palette = QPalette()
         empty_palette.setBrush(QPalette.Window, QColor(20, 20, 20))
         self.setPalette(empty_palette)
@@ -116,7 +118,9 @@ class SearchWindow(QWidget):
         try:
             img = requests.get(img_url, timeout=5)
             if (img.status_code == 200):
-
+                download_directory = "../downloads"
+                if not os.path.exists(download_directory):
+                    os.makedirs(download_directory)
                 with open("../downloads/downloaded_image.jpg", "wb") as f:
                     f.write(img.content)
 
@@ -187,6 +191,9 @@ Stats :
         img_url = data["sprites"]["other"]["official-artwork"]["front_shiny"]
         print(img_url)
         try:
+            capture_directory = "../capture"
+            if not os.path.exists(capture_directory):
+                os.makedirs(capture_directory)
             if (self.flag):
                 shutil.copy("../downloads/downloaded_image.jpg",
                             "../capture/"+data["name"]+".jpg")
